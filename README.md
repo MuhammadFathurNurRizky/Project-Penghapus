@@ -1,4 +1,4 @@
-# Project Penghapus Papan Tulis OpenGL
+# Project Penghapus OpenGL
  Ini adalah project yang diberikan oleh dosen saya sebagai tugas UTS untuk mata kuliah Grafika Komputer dengan menggunakan OpenGL
 
 ### Anggota Kelompok
