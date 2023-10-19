@@ -18,6 +18,12 @@ bool isRotating = false;
 // OpenGL window reshape routine.
 #include "Resize.h";
 
+// Mouse input control
+#include "Mouse.h";
+
+// Motion input for mouse
+#include "Motion.h";
+
 // Transform method or coroutine.
 #include "Transform.h";
 

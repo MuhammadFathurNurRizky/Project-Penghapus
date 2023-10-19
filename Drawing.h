@@ -32,16 +32,6 @@ void drawScene(void)
 	  glPointSize(5.0);
 	*/
 	/*glPolygonMode(GL_FRONT_AND_BACK, GL_LINE); // Wireframe Mode */
-
-	//gluLookAt(0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
-
-	gluLookAt(5.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
-
-	glRotatef(angleY, 1.0, 0.0, 0.0);
-	glRotatef(angleX, 0.0, 1.0, 0.0);
-
-	drawEraser();
-
 	//glBegin(GL_POLYGON);
 	///*glEnable(GL_DEPTH_TEST);
 	//glDisable(GL_DEPTH_TEST);*/
@@ -54,35 +44,13 @@ void drawScene(void)
 	//glColor3f(1.0, 1.0, 1.0);
 	//glVertex3f(20.0, 80.0, 0.0);
 	//glEnd();
+
+	gluLookAt(0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+
+	glRotatef(angleY, 1.0, 0.0, 0.0);
+	glRotatef(angleX, 0.0, 1.0, 0.0);
+
+	drawEraser();
 	glutSwapBuffers(); //Swap buffer belakang ke buffer depan
 	//glFlush(); // Membersihkan semua perintah yang ada di method ini.
-}
-
-void mouse(int button, int state, int x, int y) {
-	// Mouse callback function for mouse button events
-
-	if (button == GLUT_LEFT_BUTTON) {
-		if (state == GLUT_DOWN) {
-			prevMouseX = x;
-			prevMouseY = y;
-			isRotating = true;
-		}
-		else if (state == GLUT_UP) {
-			isRotating = false;
-		}
-	}
-}
-
-void motion(int x, int y) {
-	// Mouse motion callback for interactive rotation
-
-	if (isRotating) {
-		int dx = x - prevMouseX;
-		int dy = y - prevMouseY;
-		angleX += dx;
-		angleY += dy;
-		prevMouseX = x;
-		prevMouseY = y;
-		glutPostRedisplay();
-	}
 }

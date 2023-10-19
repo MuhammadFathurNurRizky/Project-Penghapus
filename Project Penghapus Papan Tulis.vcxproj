@@ -23,6 +23,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Drawing.h" />
+    <ClInclude Include="Motion.h" />
+    <ClInclude Include="Mouse.h" />
     <ClInclude Include="Move.h" />
     <ClInclude Include="Resize.h" />
     <ClInclude Include="Transform.h" />
