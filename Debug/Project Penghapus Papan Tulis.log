@@ -1,7 +1,8 @@
 ﻿  Main.cpp
-C:\Users\Lenovo\source\repos\Project Penghapus Papan Tulis\Main.cpp(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\Lenovo\source\repos\Project Penghapus Papan Tulis\Drawing.h(3,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
-C:\Users\Lenovo\source\repos\Project Penghapus Papan Tulis\Main.cpp(12,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\Lenovo\source\repos\Project Penghapus Papan Tulis\Main.cpp(15,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\Lenovo\source\repos\Project Penghapus Papan Tulis\Main.cpp(18,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Project Penghapus Papan Tulis.vcxproj -> C:\Users\Lenovo\source\repos\Project Penghapus Papan Tulis\Debug\Project Penghapus Papan Tulis.exe
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(16,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Drawing.h(5,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Project-Penghapus-Papan-Tulis\Drawing.h(21,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(19,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(22,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(25,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Project Penghapus Papan Tulis.vcxproj -> E:\Project-Penghapus-Papan-Tulis\Debug\Project Penghapus Papan Tulis.exe

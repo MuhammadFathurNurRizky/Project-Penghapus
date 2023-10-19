@@ -5,6 +5,13 @@
 #include <cmath>
 #include <iostream>
 
+// Global variables for rotation
+float angleX = 0.0f;
+float angleY = 0.0f;
+int prevMouseX = 0;
+int prevMouseY = 0;
+bool isRotating = false;
+
 // Drawing routine.
 #include "Drawing.h";
 
@@ -32,6 +39,10 @@ int main(int argc, char** argv)
 	glutCreateWindow("Fathur_Jaki");
 	glutDisplayFunc(drawScene);
 	glutReshapeFunc(resize);
+
+	glEnable(GL_DEPTH_TEST);
+	glutMouseFunc(mouse);
+	glutMotionFunc(motion);
 	//glutKeyboardFunc(keyInput); // Transform 3D Object
 	//glutSpecialFunc(specialKeyInput); // Move 3D Object
 
