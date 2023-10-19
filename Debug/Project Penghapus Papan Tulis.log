@@ -1,10 +1,14 @@
 ﻿  Main.cpp
-E:\Project-Penghapus-Papan-Tulis\Main.cpp(16,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(18,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 E:\Project-Penghapus-Papan-Tulis\Drawing.h(5,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 E:\Project-Penghapus-Papan-Tulis\Drawing.h(21,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
-E:\Project-Penghapus-Papan-Tulis\Main.cpp(19,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-E:\Project-Penghapus-Papan-Tulis\Main.cpp(22,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-E:\Project-Penghapus-Papan-Tulis\Main.cpp(25,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-E:\Project-Penghapus-Papan-Tulis\Main.cpp(28,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-E:\Project-Penghapus-Papan-Tulis\Main.cpp(31,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(21,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(24,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(27,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(30,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Main.cpp(33,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project-Penghapus-Papan-Tulis\Move.h(3,39): warning C4305: '+=': truncation from 'double' to 'float'
+E:\Project-Penghapus-Papan-Tulis\Move.h(4,41): warning C4305: '-=': truncation from 'double' to 'float'
+E:\Project-Penghapus-Papan-Tulis\Move.h(5,41): warning C4305: '-=': truncation from 'double' to 'float'
+E:\Project-Penghapus-Papan-Tulis\Move.h(6,42): warning C4305: '+=': truncation from 'double' to 'float'
   Project Penghapus Papan Tulis.vcxproj -> E:\Project-Penghapus-Papan-Tulis\Debug\Project Penghapus Papan Tulis.exe

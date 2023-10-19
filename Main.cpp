@@ -6,8 +6,10 @@
 #include <iostream>
 
 // Global variables for rotation
-float angleX = 0.0f;
+float angleX = 0.0f; // Angle rotate
 float angleY = 0.0f;
+float valueX = 0.0f;  // Coordinate position move
+float valueY = 0.0f;
 int prevMouseX = 0;
 int prevMouseY = 0;
 bool isRotating = false;
@@ -50,7 +52,7 @@ int main(int argc, char** argv)
 	glutMouseFunc(mouse);
 	glutMotionFunc(motion);
 	//glutKeyboardFunc(keyInput); // Transform 3D Object
-	//glutSpecialFunc(specialKeyInput); // Move 3D Object
+	glutSpecialFunc(specialKeyInput); // Move 3D Object
 
 	glewExperimental = GL_TRUE;
 	glewInit();

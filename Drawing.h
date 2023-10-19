@@ -49,6 +49,7 @@ void drawScene(void)
 
 	glRotatef(angleY, 1.0, 0.0, 0.0);
 	glRotatef(angleX, 0.0, 1.0, 0.0);
+	glTranslatef(valueX, valueY, 0.0);
 
 	drawEraser();
 	glutSwapBuffers(); //Swap buffer belakang ke buffer depan
